@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo" >
+            <img src="assets/profile-pic.png" alt="profile-picture" data-testid="slackProfilePicture">
+            <p data-testid="slackDisplayName">Halima_Yusif</p>
+        </div>
+
+        <nav class="navbar">
+            <ul class="navlinks">
+                <li><a href="#goals">goals</a></li>
+                <li><a href="#plan">plan</li></a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="date">
+            <div id="day" data-testid="currentDay"></div>
+            <div id="time" data-testid="currentTimeUTC"></div>
+        </div>
+        
+    </header>  
+    
+    <section class="section-one">
+        <h1 class="title">my two year goals</h1>
+        <p>
+            As a dedicated tech enthusiast, I've laid out ambitious plans to expand my skills and knowledge over the next two years.
+            Join me on this exciting journey as I share my roadmap to becoming a more well-rounded developer.
+        </p>
+    </section>
+
+    <section id="goals" class="section-two">
+        <h3 class="sub-title">Goals</h3>
+
+        <div class="flex-container goals">
+            <div class="wrapper">
+                <p class="wrapper-title">become a full stack developer</p>
+                <p  class="wrapper-text">I aim to broaden my expertise to proficiently handle both front-end and back-end development, empowering me to create
+                comprehensive web applications.</p>
+            </div>
+            <div class="wrapper">
+                <p class="wrapper-title">Enhance Security Expertise</p> 
+                <p  class="wrapper-text">
+                    Deepen my understanding of secure coding practices, network security, and data protection to ensure the applications I
+                    build are robust and secure.
+                </p>
+            </div>
+            <div class="wrapper">
+                <p class="wrapper-title">
+                    Secure a Senior Developer Role
+                </p>
+                <p  class="wrapper-text">Continuously improve my skills, take on more challenging projects, and demonstrate my leadership abilities to progress
+                into a senior developer position.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" class="section-three">
+        <h3 id="skills"  class="sub-title">skills to develop</h3>
+        <p class="sub-text">
+            To reach these objectives, I've crafted a thorough strategy including courses, practical projects. 
+             I look forward to sharing my advancements and insights throughout this journey.
+        </p>
+
+        <div class="flex-container plan">
+            <div class="wrapper">
+                <p class="wrapper-title">Node.js and Express</p>
+                <p  class="wrapper-text">
+                    I aim to strengthen my proficiency in server-side development with Node.js and the Express framework, equipping me to
+                    build resilient and scalable API endpoints.
+                </p>
+            </div>
+            <div class="wrapper">
+                <p class="wrapper-title">Web Application Security Fundamentals</p>
+                <p  class="wrapper-text">
+                    I intend to learn about common vulnerabilities such as Cross-Site Scripting (XSS), SQL Injection, Cross-Site Request Forgery (CSRF)
+                </p>
+            </div>
+            <div class="wrapper">
+                <p class="wrapper-title">software competencies</p>
+                <p class="wrapper-text">I aspire to assume greater leadership responsibilities, actively contribute to open-source projects, and aim to secure a
+                senior developer position at a respected tech firm.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-container" id="contact">
+        <h3 id="connect" class="sub-title">contact me</h3>
+        <p class="sub-text">
+            Don't hesitate to contact me if you have any inquiries or wish to collaborate.
+        </p>
+
+        <div class="connect-withus">
+            <div class="contact-via">
+                <div class="phone">
+                    <img src="assets/phone.png" alt="phone">
+                    +233592057632
+                </div>
+                <div class="email" data-testid="slackEmail">
+                    <img src="assets/email.png" alt="email">
+                    halimayusif11@gmail.com
+                </div>
+            </div>
+            
+            <div class="socials">
+                <a class="twitter" href="https://x.com/Limah_1">
+                    <img src="assets/twitter.png" alt="twitter-icon">
+                </a>
+                <a class="linkedin" href="https://www.linkedin.com/in/halima-yusif-attah-451270154/">
+                    <img src="assets/linkedin.png" alt="linkedin-icon" />
+                </a>
+            </div>
+            
+            <div class="hng-links">
+                
+                <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer" data-testid="hngLink">
+                    Learn more about HNG
+                </a>
+                <a href="http://keyword.dog/" target="_blank" rel="noopener noreferrer" data-testid="keywordLink">
+                    Keyword
+                </a>
+                <a href="http://scrapeanyweb.site/" target="_blank" rel="noopener noreferrer" data-testid="scrapeanywebLink">
+                    Scrape Web
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- https://github.com/halima-yusif-attah/Personal-Site.git -->
