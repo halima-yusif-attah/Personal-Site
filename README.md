@@ -8,13 +8,6 @@
 ## Introduction
 Personal Site is a one page web application built with HTML/CSS nad JS, designed to provide a two year goal of my career.
 
-## Features
-- Tax management tools
-- Proposal tracking system
-- Page navigation for exploring services and reviews
-- User authentication (in progress)
-- Products and Templates links (in progress)
-
 ## Navigation/ Features
 The website features the following pages for easy navigation:
 1. **Goals**: The section outlines the goals intented to achieve with the two years.
